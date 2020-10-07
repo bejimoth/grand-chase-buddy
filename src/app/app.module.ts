@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { DefenseCalculatorComponent } from './defense-calculator/defense-calculator.component';
 import { DefenseBuilderComponent } from './defense-builder/defense-builder.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ChaserCalculatorComponent } from './chaser-calculator/chaser-calculator.component';
 
 const routes: Routes = [
   { path: '', component: DefenseCalculatorComponent },
@@ -18,7 +19,8 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     DefenseCalculatorComponent,
-    DefenseBuilderComponent
+    DefenseBuilderComponent,
+    ChaserCalculatorComponent
   ],
   imports: [
     BrowserModule,

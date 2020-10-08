@@ -1,1 +1,40 @@
-<p>chaser-calculator works!</p>
+<div class="form-signin">
+    <div class="text-center mb-4">
+        <h1 class="h3 mb-3 font-weight-normal">{{ this.title }}</h1>
+    </div>
+
+    <div class="form-label-group">
+        <input type="number" min="0" max="25" id="currentLevel" class="form-control" [(ngModel)]="currentLevel"
+            placeholder="Current Level" autofocus>
+        <label for="currentLevel">Current Level</label>
+    </div>
+
+    <div class="form-label-group">
+        <input type="number" min="1" max="25" id="targetLevel" class="form-control" [(ngModel)]="targetLevel"
+            placeholder="Target Level" autofocus>
+        <label for="targetLevel">Target Level</label>
+    </div>
+
+    <button class="btn btn-lg btn-primary btn-block" (click)="calculate()">Calculate</button><br>
+
+    <div class="form-label-group">
+        <input type="text" id="materials" class="form-control" [(ngModel)]="materials" placeholder="Needed Crystals"
+            disabled>
+        <label for="materials">Needed Crystals</label>
+    </div>
+
+    <!-- <label for="">runs world 4</label>
+    <input type="text" name="" id="">
+
+    <label for="">runs world 5</label>
+    <input type="text" name="" id="">
+
+    <label for="">runs world 6</label>
+    <input type="text" name="" id="">
+
+    <label for="">runs world 7</label>
+    <input type="text" name="" id="">
+
+    <label for="">runs world 8</label>
+    <input type="text" name="" id=""> -->
+</div>
